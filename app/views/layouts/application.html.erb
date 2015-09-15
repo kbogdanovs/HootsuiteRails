@@ -28,11 +28,7 @@
 		});
 	</script>
 
-	<% if protocol == "https://" %>
-		<script type="text/javascript" src="http://static.hootsuite.com/jsapi/0-5/hsp.js"></script>
-	<% else %>
-		<script type="text/javascript" src="https://d2l6uygi1pgnys.cloudfront.net/jsapi/0-5/hsp.js"></script>
-	<% end %>
+	<script src="https://d2l6uygi1pgnys.cloudfront.net/jsapi/2-0/hsp.js"></script> 
 
 	<%= csrf_meta_tags %>
 </head>

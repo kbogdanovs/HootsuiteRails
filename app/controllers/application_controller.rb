@@ -31,7 +31,10 @@ private
 	end
 
 	def protocol
+		if request.ssl?
 			return "https://"
+		else
+			return "http://"
 		end
 	end
 
